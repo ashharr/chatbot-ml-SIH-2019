@@ -158,7 +158,7 @@ ply==3.11
 prometheus-client==0.5.0
 prompt-toolkit==2.0.7
 protobuf==3.6.1
-psutil==5.4.8
+psutil==5.6.6
 py==1.7.0
 pyasn1==0.4.4
 pyasn1-modules==0.2.3
