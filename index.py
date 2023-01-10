@@ -72,7 +72,7 @@ def tagged_to_synset(word, tag):
 def insert_to_db(qt, q, a):
 	sql = "insert into `legionzbot` (`query`, `addressed`, `query_type`) values ('{0}', '{1}', '{2}')".format(q, a, qt)
 	print(sql)
-	con = create_engine("mysql+pymysql://ashhar:password@127.0.0.1:3306/cb")
+	con = create_engine("mysql+pymysql://root:@127.0.0.1:3306/cb")
 	con.execute(sql)
 
 
